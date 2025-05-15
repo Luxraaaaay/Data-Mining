@@ -21,15 +21,15 @@ This study aims to validate the effectiveness of sentiment classification method
 ```
 
 ## Methodology Overview
-- Data Collection & Preprocessing  
+- **Data Collection & Preprocessing**  
 Load datasets from Kaggle.  
 Pre-process data: remove special characters, duplicate data, and null values.  
 Tokenize and remove stopwords using external dictionaries from GitCode.  
-- Feature Engineering  
+- **Feature Engineering**  
 Convert text into numerical features using TF-IDF vectorization.  
-- Model Training  
+- **Model Training**  
 Train both Naive Bayes and Support Vector Machine classifiers.  
-- Model Evaluation  
+- **Model Evaluation**  
 Evaluate models using key metrics: Accuracy, Recall, Precision, and F1-Score.  
 Visualize results using bar graphs and confusion matrices.  
 
@@ -46,9 +46,18 @@ To run this project locally, you will need:
 - Libraries: pandas, chardet, matplotlib, seaborn, jieba, sklearn  
 
 ## How to Run
-- Clone the repository: git clone https://github.com/Luxraaaaay/Data-Mining.git  
-- Navigate to the directory: cd Data-Mining  
-- Launch Jupyter Notebook: jupyter notebook
+- Clone the repository:
+  ```
+  git clone https://github.com/Luxraaaaay/Data-Mining.git
+  ```
+- Navigate to the directory:
+  ```
+  cd Data-Mining
+  ```
+- Launch Jupyter Notebook:
+  ```
+  jupyter notebook
+  ```
 - Open data_processing.ipynb and run the cells
 
 ## Acknowledgments
