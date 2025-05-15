@@ -45,6 +45,12 @@ To run this project locally, you will need:
 - Jupyter Notebook  
 - Libraries: pandas, chardet, matplotlib, seaborn, jieba, sklearn  
 
+## How to Run
+- Clone the repository: git clone https://github.com/Luxraaaaay/Data-Mining.git  
+- Navigate to the directory: cd Data-Mining  
+- Launch Jupyter Notebook: jupyter notebook
+- Open data_processing.ipynb and run the cells
+
 ## Acknowledgments
 - Datasets: Kaggle  
 - Stopwords dictionaries: GitCode  
